@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="EcoFlow Monitor is a personal, locally hosted battery dashboard with optional power and battery notifications.">
+  <title>EcoFlow Monitor · Personal power monitoring</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">EcoFlow Monitor</a><nav aria-label="Main"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">PERSONAL SOFTWARE · LOCAL MONITORING</p>
+    <h1>A clearer view of backup power.</h1>
+    <p class="intro">EcoFlow Monitor is a personal application that reads a compatible EcoFlow power station over Bluetooth and presents battery status in a dashboard hosted on the owner's Raspberry Pi.</p>
+    <section class="features" aria-label="Features">
+      <article><span>01</span><h2>Monitor locally</h2><p>View charge, input and output power, battery history, configured battery limits and an estimated backup runtime.</p></article>
+      <article><span>02</span><h2>Record power changes</h2><p>Log inferred battery operation, detected AC input, low battery and connection events. Monitoring continues without internet access.</p></article>
+      <article><span>03</span><h2>Connect notifications</h2><p>Optional Pushover and Gmail helpers support explicit notification tests. Automatic delivery from trigger rules is being configured and is not currently enabled.</p></article>
+    </section>
+    <section class="panel"><h2>Why Google access is requested</h2><p>The optional Gmail integration requests permission to send notification emails from the account the owner authorizes. Basic Google account identity is used to verify that the intended sender account was selected. It does not request permission to read the inbox, delete messages, or manage contacts.</p><p>Authorization is completed directly with Google. Credentials are stored on the owner's Pi and are not embedded in this public website.</p><a class="text-link" href="privacy.html">Read the privacy policy →</a></section>
+    <section><h2>About this website</h2><p>This is a public information site, not the live dashboard. It has no Google sign-in, access to the power station, live telemetry or notification credentials. The application is intended for personal use, not as a public service.</p><p>EcoFlow Monitor is an independent project and is not affiliated with or endorsed by EcoFlow, Google, or Pushover.</p></section>
+  </main>
+  <footer><span>Maintained by <a href="https://github.com/pastorialeader">pastorialeader</a></span><a href="https://github.com/pastorialeader/pastorialeader.github.io/issues">Contact / report an issue</a><span><a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of use</a></span></footer>
+</body>
+</html>
